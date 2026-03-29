@@ -1,0 +1,15 @@
+1. How why is Debugging
+    - Debugging -> bug finding
+    - understand complex login step-by-step 
+    - small mistake
+    - break down and testing large functions
+    - understanding other people's code
+    - improvement -> testing , performance, code quality
+    - application action flow , code flow
+    - inspecting each & every lines of execution
+
+2.laravel Debugging way
+ - using default laravel log feature
+ - Debugging helper dd()
+  -telescope
+  - php xdebug
