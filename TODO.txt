@@ -13,3 +13,13 @@
  - Debugging helper dd()
   -telescope
   - php xdebug
+
+
+
+
+  // relation ship with users and categories
+
+            // Direct -> Has Relation -> hasOne, hasMany (Jokhon foreign key peter bahire thake)
+            // Inverse-> Belongs Relation -> belongsTo (Jokhon foreign key peter bhitore thake)
+
+            $products = Products::with('users', 'categories')->paginate(2);
