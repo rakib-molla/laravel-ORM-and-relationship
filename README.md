@@ -6,6 +6,9 @@
             $products = Products::with('users', 'categories')->paginate(2);
 
 
+image optimize package : 
+https://spatie.be/docs/image/v3/image-manipulations/resizing-images
+
 
 সহজভাবে মনে রাখার নিয়ম
 
